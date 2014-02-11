@@ -1,0 +1,68 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'montage', 'digit' ]
+2 info using npm@1.3.24
+3 info using node@v0.10.25
+4 verbose node symlink /usr/bin/node
+5 warn package.json temp-converter@1.0.0 No repository field.
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'montage@0.12.4', null ]
+8 verbose cache add name=undefined spec="montage@0.12.4" args=["montage@0.12.4",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'montage@0.12.4',
+9 verbose parsed url   path: 'montage@0.12.4',
+9 verbose parsed url   href: 'montage@0.12.4' }
+10 verbose cache add name="montage" spec="0.12.4" args=["montage","0.12.4"]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: '0.12.4',
+11 verbose parsed url   path: '0.12.4',
+11 verbose parsed url   href: '0.12.4' }
+12 verbose addNamed [ 'montage', '0.12.4' ]
+13 verbose addNamed [ '0.12.4', '0.12.4' ]
+14 verbose cache add [ 'digit', null ]
+15 verbose cache add name=undefined spec="digit" args=["digit",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'digit',
+16 verbose parsed url   path: 'digit',
+16 verbose parsed url   href: 'digit' }
+17 silly lockFile c125eb0e-montage-0-12-4 montage@0.12.4
+18 error Error: EACCES, mkdir '/home/vagrant/.npm'
+18 error  { [Error: EACCES, mkdir '/home/vagrant/.npm']
+18 error   errno: 3,
+18 error   code: 'EACCES',
+18 error   path: '/home/vagrant/.npm',
+18 error   parent: 'temp-converter' }
+19 error Please try running this command again as root/Administrator.
+20 error System Linux 3.2.0-23-generic
+21 error command "/usr/bin/node" "/usr/bin/npm" "install" "montage" "digit"
+22 error cwd /srv/clone/ducarroz/ducarroz/temp-converter
+23 error node -v v0.10.25
+24 error npm -v 1.3.24
+25 error path /home/vagrant/.npm
+26 error code EACCES
+27 error errno 3
+28 error stack Error: EACCES, mkdir '/home/vagrant/.npm'
+29 verbose exit [ 3, true ]
